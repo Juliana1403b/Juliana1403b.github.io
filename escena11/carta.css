@@ -1,0 +1,88 @@
+.escena10{
+    display: flex;
+    justify-content: center;
+}
+.fondo{
+    width: 946px;
+    margin-left: -25px;
+}
+.manos{
+    position: absolute;
+    top: 255px;
+    left: 361px;
+}
+.carta{
+    background: url(./imagenes/carta.png);
+    position: absolute;
+    width: 249px;
+    height: 381px;
+    z-index: 100;
+    bottom: 29px;
+    left: 650px;
+    top: 90px;
+    margin-left: -57px;
+}
+.cartica{
+    animation: bounce-down 0.8s linear infinite;
+}
+@keyframes bounce-down {
+    25% {
+         transform: translateY(-10px);
+    }
+    50%, 100% {
+         transform: translateY(0);
+    }
+    75% {
+         transform: translateY(10px);
+    }
+}
+.circulo{
+    position: absolute;
+    margin-left: -835px;
+    top: 419px;
+}
+.interaccion{
+    width: 70px;
+    margin-left: 500px;
+    cursor: pointer;
+}
+.titilar{
+    animation: titilando 1s forwards infinite;
+}
+@keyframes titilando{
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 30%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+    
+    }
+
+
+    .oculto{
+        opacity: 0;
+     }
+
+     .oculto{
+        opacity: 0;
+     }
+
+     .botonera{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .controladores{
+        margin-bottom: 3%;
+    }
+    
+    .cajasB{
+        display: flex;
+    justify-content: center;
+    }

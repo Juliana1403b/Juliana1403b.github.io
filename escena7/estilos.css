@@ -1,0 +1,76 @@
+.escena7{
+    background: url(./imagenes/Fondo.png);
+    width: 944px;
+    height: 533px;
+    margin-left: 200px;
+    position: relative;
+}
+.samurai{
+    position: absolute;
+    width: 24px;
+    height: 460px;
+    z-index: 100;
+    bottom: -80px;
+    left: 80%;
+    margin-left: -57px;
+    
+}
+.anim{
+    animation: bounce-down 0.8s linear infinite;
+}
+@keyframes bounce-down {
+    25% {
+         transform: translateY(-10px);
+    }
+    50%, 100% {
+         transform: translateY(0);
+    }
+    75% {
+         transform: translateY(10px);
+    }
+}
+.circulo{
+    position: absolute;
+    right: -440px;
+    top: 320px;
+}
+.interaccion{
+    width: 10%;
+    cursor: pointer;
+}
+.titilar{
+    animation: titilando 1s forwards infinite;
+}
+@keyframes titilando{
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 30%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+    
+    }
+    
+    
+    .oculto{
+       opacity: 0;
+    }
+
+    .botonera{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .controladores{
+        margin-bottom: 3%;
+    }
+    
+    .cajasB{
+        display: flex;
+    justify-content: center;
+    }

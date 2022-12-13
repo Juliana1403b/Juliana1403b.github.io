@@ -1,0 +1,54 @@
+.escena1{
+    display: flex;
+    justify-content: center;
+}
+
+.fondo{
+    position: relative;
+    width: 947px;
+}
+
+.circulo{
+    position: absolute;
+    margin-left: 1063px;
+    top: 465px;
+}
+.interaccion{
+    width: 20%;
+    cursor: pointer;
+}
+
+.titilar{
+    animation: titilando 1s forwards infinite;
+}
+
+
+@keyframes titilando{
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 30%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+    
+    }
+    
+
+    .botonera{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .controladores{
+        margin-bottom: 3%;
+    }
+    
+    .cajasB{
+        display: flex;
+    justify-content: center;
+    }

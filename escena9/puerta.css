@@ -1,0 +1,70 @@
+.todo{
+    display: flex;
+    justify-content: center;
+}
+.fondo{
+    width: 946px;
+    margin-left: -25px;
+}
+
+.cartero{
+    position: absolute;
+    width: 230px;
+}
+.carteroimg{
+    width: 157px;
+    margin-left: -26px;
+    margin-top: 137px;
+}
+.puertaC{
+    position: absolute;
+    margin-right: 109px;
+    margin-top: 123px;
+    opacity: 100%;
+    cursor: pointer;
+}
+.puertaCimg{
+    width: 175px;
+}
+.circulo{
+    position: absolute;
+    margin-left: -600px;
+    top: 256px;
+}
+.interaccion{
+    width: 70px;
+    margin-left: 500px;
+    cursor: pointer;
+}
+.titilar{
+    animation: titilando 1s forwards infinite;
+}
+
+
+@keyframes titilando{
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 30%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+    
+    }
+    .botonera{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .controladores{
+        margin-bottom: 3%;
+    }
+    
+    .cajasB{
+        display: flex;
+    justify-content: center;
+    }

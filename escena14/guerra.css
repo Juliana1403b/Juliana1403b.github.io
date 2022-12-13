@@ -1,0 +1,89 @@
+.escena13{
+    display: flex;
+    justify-content: center;
+}
+.fondo{
+    width: 946px;
+    margin-left: -25px;
+}
+.kuchi{
+    position: absolute;
+    top: 283px;
+    left: 198px;
+}
+.samurai{
+    position: absolute;
+    top: 196px;
+    left: 842px;
+}
+.mano{
+    background: url(./imagenes/mano.png);
+    position: absolute;
+    width: 49px;
+    height: 38px;
+    z-index: 100;
+    bottom: 29px;
+    left: 399px;
+    top: 455px;
+    margin-left: -57px;
+}
+.manito{
+    animation: bounce-down 0.8s linear infinite;
+}
+@keyframes bounce-down {
+    25% {
+         transform: translateY(-10px);
+    }
+    50%, 100% {
+         transform: translateY(0);
+    }
+    75% {
+         transform: translateY(10px);
+    }
+}
+.circulo{
+    position: absolute;
+    margin-left: -1332px;
+    top: 419px;
+}
+.interaccion{
+    width: 70px;
+    margin-left: 500px;
+    cursor: pointer;
+}
+.titilar{
+    animation: titilando 1s forwards infinite;
+}
+@keyframes titilando{
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 30%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+    
+    }
+
+
+    .oculto{
+        opacity: 0;
+     }
+
+     .botonera{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .controladores{
+        margin-bottom: 3%;
+    }
+    
+    .cajasB{
+        display: flex;
+    justify-content: center;
+    }

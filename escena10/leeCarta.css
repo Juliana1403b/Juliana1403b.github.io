@@ -1,0 +1,91 @@
+.escena9{
+    display: flex;
+    justify-content: center;
+}
+.fondo{
+    width: 946px;
+    margin-left: -25px;
+}
+.samurai{
+    position: absolute;
+    top: 11px;
+    left: 495px;
+}
+.circulo{
+    position: absolute;
+    margin-left: -600px;
+    top: 256px;
+}
+.interaccion{
+    width: 70px;
+    margin-left: 500px;
+    cursor: pointer;
+}
+.titilar{
+    animation: titilando 1s forwards infinite;
+}
+
+
+.texto{
+    background: url(./imagenes/texto.png);
+        position: absolute;
+       left: 495px;
+        top: 11px;
+        width: 418px;
+        height: 529px;
+        margin: 0 auto; 
+}
+.texto1{
+    animation: walk 2s steps(9) forwards;
+}
+
+@keyframes walk {
+    0%{
+        right: 40%;
+        background-position: 0px;
+    }
+    99%{
+        right: 20%;
+        background-position: -4944px;
+        opacity: 100;   
+    }
+    100%{
+        right: 20%;
+        background-position: -4944px;
+        opacity: 0;   
+    }
+  }
+
+@keyframes titilando{
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 30%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+    
+    }
+
+
+    .oculto{
+        opacity: 0;
+     }
+
+     .botonera{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .controladores{
+        margin-bottom: 3%;
+    }
+    
+    .cajasB{
+        display: flex;
+    justify-content: center;
+    }

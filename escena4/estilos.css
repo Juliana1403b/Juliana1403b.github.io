@@ -1,0 +1,120 @@
+.escena4{
+    background: url(./imagenes/fondo.png);
+    width: 942px;
+    height: 530px;
+    margin-left: 200px;
+    position: relative;
+}
+.nube1{
+    position: absolute;
+    left: 640px;
+    top: 90px;
+       
+}
+@keyframes move_nube1{
+    100%{
+        margin-left: -640px;
+    }
+}
+.nube2{
+    position: absolute;
+    left: 765px;
+    top: 30px;
+       
+}
+@keyframes move_nube2{
+    100%{
+        margin-left: -640px;
+    }
+}
+.nube3{
+    position: absolute;
+    right: 770px;
+    top: 60px;
+        
+}
+@keyframes move_nube3{
+    100%{
+        margin-right: -640px;
+    }
+}
+.nube4{
+    position: absolute;
+    right: 776px;
+    top: 80px;
+      
+}
+.anim1{
+    animation: move_nube1 5s linear infinite; 
+     
+    
+      
+}
+.anim2{
+    animation: move_nube2 8s linear infinite;
+}
+.anim3{
+    animation: move_nube3 6s linear infinite;
+}
+.anim4{
+    animation: move_nube4 7s linear infinite;
+}
+@keyframes move_nube4{
+    100%{
+        margin-right: -640px;
+    }
+}
+.zoom {
+    transition: transform .2s; 
+    margin-left: 425px;
+    margin-top: 315px;
+}
+ 
+.zoom:hover {
+    transform: scale(1.5); 
+}
+
+.circulo{
+    position: absolute;
+    right: -203px;
+    top: 45px;
+}
+.interaccion{
+    width: 10%;
+    cursor: pointer;
+}
+.titilar{
+    animation: titilando 1s forwards infinite;
+}
+@keyframes titilando{
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 30%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+    
+    }
+    
+    
+    .oculto{
+       opacity: 0;
+    }
+    .botonera{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .controladores{
+        margin-bottom: 3%;
+    }
+    
+    .cajasB{
+        display: flex;
+    justify-content: center;
+    }

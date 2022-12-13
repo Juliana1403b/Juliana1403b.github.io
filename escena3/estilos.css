@@ -1,0 +1,115 @@
+  .viñeta{
+    display: flex;
+    justify-content: center;
+}
+
+.fondo{
+    position: relative;
+    width: 947px;
+}
+
+
+.kuchiSola{
+    position: absolute;
+    top: 200px;
+    left: 285px;
+}
+
+
+.kuchi{
+    background: url(./imagenes/kuchi.png);
+        position: absolute;
+       left: 285px;
+        top: 200px;
+        width: 549px;
+        height: 327px;
+        margin: 0 auto; 
+       
+
+        
+}
+
+.Kuchicaminado{
+    animation: walk 2s steps(9) forwards;
+}
+
+@keyframes walk {
+    0%{
+        right: 40%;
+        background-position: 0px;
+    }
+    99%{
+        right: 20%;
+        background-position: -4944px;
+        opacity: 100;   
+    }
+    100%{
+        right: 20%;
+        background-position: -4944px;
+        opacity: 0;   
+    }
+  }
+
+
+  .circulo{
+    position: absolute;
+    margin-left: 10px;
+    top: 320px;
+}
+.interaccion{
+    width: 10%;
+    cursor: pointer;
+}
+
+.titilar{
+    animation: titilando 1s forwards infinite;
+}
+
+
+@keyframes titilando{
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 30%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+    
+    }
+    
+    
+    .oculta{
+       opacity: 0;
+    }
+
+    .botonera{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .controladores{
+        margin-bottom: 3%;
+    }
+    
+    .cajasB{
+        display: flex;
+    justify-content: center;
+    }
+
+    .botonera{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .controladores{
+        margin-bottom: 3%;
+    }
+    
+    .cajasB{
+        display: flex;
+    justify-content: center;
+    }

@@ -1,0 +1,87 @@
+.escena6{
+    background: url(./imagenes/Fondo.png);
+    height: 532px;
+    width: 944px;
+    margin-left: 250px;
+    position: relative;
+}  
+
+@keyframes fondo{
+    100%{
+        background-position-x: -222px;
+    }
+}
+
+.samurai{
+        position: absolute;
+        left: 5px;
+        top: 190px;
+        width: 559px;
+        height: 334px;
+        margin-left: -10px; 
+        background: url(./imagenes/samurai.png);
+        
+}
+.anim{
+    animation: walk 2.5s steps(9) infinite;
+}
+
+@keyframes walk {
+    0% { background-position:0 }
+    100% { background-position:-5035px }
+  }
+
+  .kuchi{
+    position: absolute;
+    left: 550px;
+    top: 236px;
+    width: 124px;
+    height: 277px;
+    margin-left: -10px; 
+    background: url(./imagenes/kuchi.png);
+}
+.circulo{
+    position: absolute;
+    margin-left: 19px;
+    top: 320px;
+}
+.interaccion{
+    width: 10%;
+    cursor: pointer;
+}
+.titilar{
+    animation: titilando 1s forwards infinite;
+}
+@keyframes titilando{
+    0%{
+        opacity: 100%;
+    }
+    
+    50%{
+        opacity: 30%;
+    }
+    
+    100%{
+        opacity: 100%;
+    }
+    
+    }
+    
+    
+    .oculto{
+       opacity: 0;
+    }
+
+    .botonera{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .controladores{
+        margin-bottom: 3%;
+    }
+    
+    .cajasB{
+        display: flex;
+    justify-content: center;
+    }
